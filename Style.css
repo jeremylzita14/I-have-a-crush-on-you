@@ -20,12 +20,12 @@
     text-align: center;
     align-items: center;
     gap: 250px;
-    max-width: 500px;
-    margin: 250px;
+    max-width: 150px;
+    margin: 0px;
   }
   
   .container .tenor-gif-embed {
-    max-width: 250px;
+    max-width: 150px;
   }
 
 
