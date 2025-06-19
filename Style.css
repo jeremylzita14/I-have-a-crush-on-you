@@ -24,9 +24,12 @@
     margin: 20px;
   }
   
-  .container .tenor-gif-embed {
-    max-width: 200px;
-  }
+.container .tenor-gif-embed {
+  max-width: 250px;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+}
   
   .container .btn {
     display: flex;
