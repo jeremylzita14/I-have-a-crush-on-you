@@ -23,15 +23,7 @@
     height: 100vh; /* Make the container full viewport height */
 }
 
-  
-  .container .tenor-gif-embed {
-    max-width: 200px;
-  }
-  
-  .container .btn {
-    display: flex;
-    gap: 25px;
-  }
+
   
   .btn a {
     text-decoration: none;
