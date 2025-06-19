@@ -1,44 +1,75 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-  }
-  
-  body {
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #d9a6a6;
-  }
-  
-  .container {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    gap: 20px;
-    max-width: 250px;
-    margin: 250px;
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d9a6a6;
+  padding: 20px;
+}
+
+/* Main container styling */
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 20px;
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+/* Limit GIF size */
 .container .tenor-gif-embed {
   width: 100%;
-  max-width: 250px;
+  max-width: 250px;  /* Controls the max width of GIF */
   height: auto;
+  margin: 0 auto;
 }
-  
-  .container .btn {
-    display: flex;
-    gap: 25px;
-  }
-  
-  .btn a {
-    text-decoration: none;
-    color: #111;
-    background: #fff;
-    padding: 10px 25px;
-    border-radius: 66px;
-    box-shadow: 0.5rem 1rem 3rem hsl(0, 0%, 0%, 0.3); }
+
+/* Headings and paragraph */
+.container h1 {
+  color: #333;
+  font-size: 1.8rem;
+}
+
+.container p {
+  color: #555;
+  font-size: 1.1rem;
+  margin-top: 6px;
+}
+
+/* Button container */
+.container .btn {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+}
+
+/* Buttons */
+.btn a {
+  text-decoration: none;
+  color: #111;
+  background: #fff;
+  padding: 10px 25px;
+  border-radius: 66px;
+  box-shadow: 0.5rem 1rem 3rem rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease;
+}
+
+.btn a:hover {
+  background-color: #f8dada;
+  cursor: pointer;
+}
