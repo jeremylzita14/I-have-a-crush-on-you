@@ -15,50 +15,55 @@ body {
   padding: 20px;
 }
 
-/* Main container styling */
+/* Main container */
 .container {
   display: flex;
   flex-direction: column;
-  text-align: center;
   align-items: center;
+  text-align: center;
   gap: 20px;
   max-width: 500px;
   width: 100%;
-  margin: 0 auto;
   background: #fff;
   padding: 30px;
   border-radius: 12px;
-  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
-/* Limit GIF size */
-.container .tenor-gif-embed {
-  width: 100%;
-  max-width: 250px;  /* Controls the max width of GIF */
-  height: auto;
-  margin: 0 auto;
+/* Center GIF */
+.tenor-gif-embed {
+  max-width: 250px !important;
+  width: 100% !important;
+  display: block !important;
+  margin: 0 auto !important;
 }
 
-/* Headings and paragraph */
-.container h1 {
-  color: #333;
+.tenor-gif-embed iframe {
+  max-width: 250px !important;
+  width: 100% !important;
+  height: auto !important;
+  display: block !important;
+  margin: 0 auto !important;
+}
+
+/* Text styles */
+h1 {
   font-size: 1.8rem;
+  color: #333;
 }
 
-.container p {
-  color: #555;
+p {
   font-size: 1.1rem;
-  margin-top: 6px;
+  color: #555;
 }
 
-/* Button container */
-.container .btn {
+/* Buttons */
+.btn {
   display: flex;
   gap: 25px;
   justify-content: center;
 }
 
-/* Buttons */
 .btn a {
   text-decoration: none;
   color: #111;
@@ -72,56 +77,4 @@ body {
 .btn a:hover {
   background-color: #f8dada;
   cursor: pointer;
-}
-
-.tenor-gif-embed iframe {
-  max-width: 250px !important;
-  width: 100% !important;
-  height: auto !important;
-  margin: 0 auto;
-  display: block;
-  border-radius: 12px;
-}
-.tenor-gif-embed {
-  display: flex !important;          /* Make the container a flexbox */
-  justify-content: center !important; /* Center horizontally */
-  align-items: center !important;      /* Center vertically */
-  margin: 0 auto !important;           /* Center block horizontally */
-  width: 100% !important;
-  max-width: 250px !important;          /* same as iframe max-width */
-  height: auto !important;
-}
-
-.tenor-gif-embed iframe {
-  margin: 0 auto !important;   /* Center iframe inside container */
-  display: block !important;
-  }
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;      /* Center children horizontally */
-  text-align: center;
-  gap: 20px;
-  max-width: 500px;
-  margin: 20px auto;
-  padding: 20px;
-  background: #fff;
-  border-radius: 12px;
-  box-shadow: 0 0 20px rgba(0,0,0,0.1);
-}
-
-.tenor-gif-embed {
-  width: 100% !important;
-  max-width: 250px !important;    /* limit size */
-  margin: 0 auto !important;      /* center horizontally */
-  display: block !important;      /* make it block so margin auto works */
-}
-
-.tenor-gif-embed iframe {
-  width: 100% !important;         /* full width of container */
-  max-width: 250px !important;
-  height: auto !important;
-  display: block !important;
-  margin: 0 auto !important;      /* center iframe */
-  border-radius: 12px;
 }
