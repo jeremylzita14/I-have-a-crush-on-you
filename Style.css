@@ -19,20 +19,18 @@
     flex-direction: column;
     text-align: center;
     align-items: center;
-    gap: 250px;
-    max-width: 150px;
-    margin: 0px;
+    gap: 20px;
+    max-width: 500px;
+    margin: 20px;
   }
   
   .container .tenor-gif-embed {
-    max-width: 150px;
+    max-width: 200px;
   }
-
-
   
   .container .btn {
     display: flex;
-    gap: 250px;
+    gap: 25px;
   }
   
   .btn a {
@@ -40,3 +38,5 @@
     color: #111;
     background: #fff;
     padding: 10px 25px;
+    border-radius: 66px;
+    box-shadow: 0.5rem 1rem 3rem hsl(0, 0%, 0%, 0.3); }
