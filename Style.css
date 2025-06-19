@@ -14,32 +14,29 @@
     background-color: #d9a6a6;
   }
   
- .container {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-  gap: 20px;
-  max-width: 500px;
-  margin: 20px auto;           /* ← changed here */
-}
+  .container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 250px;
+    max-width: 500px;
+    margin: 250px;
+  }
+  
+  .container .tenor-gif-embed {
+    max-width: 250px;
+  }
 
-.container .btn {
-  display: flex;
-  gap: 25px;
-  justify-content: center;     /* ← added here */
-}
 
-.container .tenor-gif-embed {
-  max-width: 200px;
-  width: 100%;
-  margin: 0 auto;
-  display: block;
-}
+  
+  .container .btn {
+    display: flex;
+    gap: 250px;
+  }
+  
   .btn a {
     text-decoration: none;
     color: #111;
     background: #fff;
     padding: 10px 25px;
-    border-radius: 66px;
-    box-shadow: 0.5rem 1rem 3rem hsl(0, 0%, 0%, 0.3); }
