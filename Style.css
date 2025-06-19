@@ -82,3 +82,16 @@ body {
   display: block;
   border-radius: 12px;
 }
+.tenor-gif-embed {
+  display: flex !important;          /* Make the container a flexbox */
+  justify-content: center !important; /* Center horizontally */
+  align-items: center !important;      /* Center vertically */
+  margin: 0 auto !important;           /* Center block horizontally */
+  width: 100% !important;
+  max-width: 250px !important;          /* same as iframe max-width */
+  height: auto !important;
+}
+
+.tenor-gif-embed iframe {
+  margin: 0 auto !important;   /* Center iframe inside container */
+  display: block !important;
