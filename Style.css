@@ -15,15 +15,24 @@
   }
   
   .container {
-  {
-    display: flex; /* Use flexbox layout */
-    flex-direction: column; /* Stack elements vertically */
-    align-items: center; /* Center-align items horizontally */
-    justify-content: center; /* Center-align items vertically */
-    height: 100vh; /* Make the container full viewport height */
-}
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 100px;
+    max-width: 500px;
+    margin: 100px;
+  }
+  
 
-
+  .container .tenor-gif-embed {
+    max-width: 500px;
+  }
+  
+  .container .btn {
+    display: flex;
+    gap: 100px;
+  }
   
   .btn a {
     text-decoration: none;
