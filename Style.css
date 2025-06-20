@@ -6,29 +6,23 @@
   }
   
 body {
-  width: 100%;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #FADADD;
-}
+    font-family: sans-serif; 
+    text-align: center;
+    margin: 0; 
+    background-color: #FADADD; 
+} 
 
-  
-  .container {
+#container {
     display: flex;
     flex-direction: column;
-    text-align: center;
     align-items: center;
-    gap: 100px;
-    max-width: 500px;
-    margin: 100px;
-  }
-  
+    justify-content: center;
+    height: 100vh; 
+}
 
-  .container .tenor-gif-embed {
-    max-width: 500px;
-  }
+#image-container {
+    }
+
   
   .container .btn {
     display: flex;
