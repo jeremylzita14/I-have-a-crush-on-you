@@ -5,23 +5,29 @@
     font-family: sans-serif;
   }
   
-body {
-    font-family: sans-serif; 
-    text-align: center;
-    margin: 0; 
-    background-color: #FADADD; 
-} 
-
-#container {
+  body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d9a6a6;
+  }
+  
+  .container {
     display: flex;
     flex-direction: column;
+    text-align: center;
     align-items: center;
-    justify-content: center;
-    height: 100vh; 
-}
+    gap: 20px;
+    max-width: 500px;
+    margin: 20px;
+  }
+  
 
-#image-container {
-    }
+  .container .tenor-gif-embed {
+    max-width: 200px;
+  }
 
   
   .container .btn {
